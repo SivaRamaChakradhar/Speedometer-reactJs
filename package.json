@@ -1,5 +1,6 @@
 {
   "name": "speedometer",
+  "home": "https://sivaramachakradhar.github.io/Speedometer-reactJs",
   "private": true,
   "version": "1.0.0",
   "engines": {
@@ -11,6 +12,7 @@
     "@testing-library/react": "11.2.5",
     "@testing-library/user-event": "12.6.2",
     "chalk": "4.1.0",
+    "gh-pages": "6.3.0",
     "react": "17.0.1",
     "react-dom": "17.0.1"
   },
@@ -27,6 +29,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "lint": "eslint .",
     "lint:fix": "eslint --fix src/",
