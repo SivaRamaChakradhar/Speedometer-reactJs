@@ -1,0 +1,54 @@
+/* Write your CSS here */
+.bgContainer {
+  background-color: #07080c;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  font-family: 'Roboto';
+  font-style: italic;
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: 500;
+}
+.image {
+  max-width: 300px;
+}
+@media screen and (min-width: 768px) {
+  .image {
+    max-width: 600px;
+  }
+}
+.para1 {
+  color: #ffffff;
+  font-size: 25px;
+  font-family: 'Roboto';
+}
+.para2 {
+  color: #cbd5e1;
+  font-size: 15px;
+  font-family: 'Roboto';
+}
+.btn {
+  height: 34px;
+  width: 100px;
+  margin: 10px;
+  border-width: 0px;
+  border-radius: 10px;
+  font-family: 'Roboto';
+  font-size: 12px;
+}
+.btn-blue {
+  background-color: #0b69ff;
+  color: white;
+}
+.btn-transparent {
+  background-color: transparent;
+  border-width: 2px;
+  color: #94a3b8;
+  border-color: #94a3b8;
+}
